@@ -1,0 +1,175 @@
+*{margin:0;
+padding:0;}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width:175px;
+}
+.nav-links{
+    text-align:right;
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    padding:8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:rgb(209, 176, 209);
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li a:hover{
+    padding:5px 10px;
+    background-color: #7fc142;
+    color:#fff;
+}
+button{
+    border:none;
+    background: none;
+    cursor:pointer;
+}
+.primary-btn{
+    padding: 10px 30px;
+    background: #7fc142;
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+}
+.home .text h1{
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.booking{
+    padding:40px 0;
+    background: #282834;
+    color:#fff;
+}
+
+.booking input{
+    padding:10px 75px;
+}
+.booking select{
+    padding: 10px 85px;
+}
+
+.about{
+    background-image: url("https://www.10wallpaper.com/wallpaper/2560x1600/1605/Strange_Night_Lake_Over-Landscape_theme_HD_Wallpaper_2560x1600.jpg");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height:40vh;
+    width:100%;
+}
+.about h1{
+    padding-top: 40px;
+    font-size: 50px;
+    color: #f4620d;
+}
+.about hr{
+    width:50%;
+    margin: 10px auto;
+    background: #004314;
+    height: 5px;
+    border: none;
+}
+.about .box span{
+    font-weight:bolder;
+    font-size: 30px;
+    color: #f4620d;
+}
+.about2{
+    background-image: url("https://www.10wallpaper.com/wallpaper/2560x1600/1605/Strange_Night_Lake_Over-Landscape_theme_HD_Wallpaper_2560x1600.jpg");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height:25vh;
+    width:100%;
+}
+.about2 h1{
+    padding-top: 40px;
+    font-size: 50px;
+    color: #f4620d;
+}
+.about2 hr{
+    width:50%;
+    margin:  auto;
+    background: #004314;
+    height: 5px;
+    border: none;
+}
+
+.signin{
+    padding-top: 20px;
+    background: #282834;
+    color:#fff;
+}
+.signin input{
+    padding: 5px 70px;
+}
+button{
+    border:none;
+    background: none;
+    cursor:pointer;
+}
+.cancelbtn{
+    padding: 10px 30px;
+    background: #f4620d;
+    font-weight: bold;
+    color:white;
+    padding: 10px 120px;
+    opacity: 0.8;
+}
+.cancelbtn:hover{
+    opacity: 1;
+}
+.signupbtn{
+    padding: 10px 30px;
+    background: #7fc142;
+    font-weight: bold;
+    color:white;
+    padding:10px 120px;
+    opacity: 0.8;
+}
+.signupbtn:hover{
+    opacity: 1;
+}
+.signin hr{
+    background: #6ff143;
+    height: 5px;
+    border: none;
+}
+.contactus{
+    color: white;
+    padding-top: 10px;
+}
+.contactus input{
+    padding: 5px 90px;
+}
+.submitbtn{
+    padding: 10px 30px;
+    background: #7fc142;
+    font-weight: bold;
+    color:white;
+    padding:10px 50px;
+    opacity: 0.8;
+}
+.submitbtn:hover{
+    opacity: 1;
+}
+footer{
+    background: #3e3e47;
+}
+footer a{
+    padding-left: 15px;
+    color:#6ff143;
+    text-decoration: none;
+}
+.payment label{
+    font-size: 30px;
+}
+.payment input{
+    padding:7px 90px;
+}

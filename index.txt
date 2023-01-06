@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HOTEL MANAGEMENT SYSTEM</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+    <body style="background-image: url(image/cloud.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;">
+
+
+        <section class="header" style="background:#282834">
+            <br>
+            <br>
+                <nav>
+                    <h1 style=" font-size: 65px;font-weight: 400;color: rgb(212, 150, 55);"><i class="fa-solid fa-crown"></i> EMPEROR HOTELS</h1>
+                    <div class="nav-links">
+                        <ul>
+                            <li><b><a href="#home">HOME</a></b></li>    
+                            <li><b><a href="gallery.html">GALLERY</a></b></li>
+                            <li><b><a href="#about">ABOUT</a></b></li>
+                            <li><b><a href="#contactus">CONTACT US</a></b></li>
+                            <li><b><a href="#signin">LOG IN</a></b></li>
+                            <li><button class="primary-btn" ><a href="#booking"style="color:white;text-decoration: none;">BOOK NOW</a></button></li>
+                            <li><button class="primary-btn"><a href="https://wa.me/8423131088"style="color:white ;text-decoration: none;"><i class="fa-brands fa-whatsapp" style="font-size:25px"></i></a></button></center></li>
+                        </ul>                       
+                    </div>          
+                </nav>
+                <br>
+                <br>
+        </section>
+        <section id="home">
+            <br>
+            <br>
+            <br>
+        <center><b><h1 style="color:red;font-size: 90px;font-weight: 400;text-shadow: 4px 4px 8px red;">WELCOME TO EMPEROR HOTELS</h1></b></center>
+        <br>
+        <br>
+        <br>
+        <section class="home">
+            <div class="item">
+                <div class="text">
+                    <center><h1>SPEND YOUR HOLIDAY</h1></center>
+                </div>
+                <img src="https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2022/04/12/1329/MUMGH-P0765-Inner-Courtyard-Hotel-Exterior-Evening.jpg/MUMGH-P0765-Inner-Courtyard-Hotel-Exterior-Evening.16x9.jpg" width="100%" height="500">
+            </div>
+        </section>
+
+        <br>
+        <br>
+
+        <section>
+                <center><b><h2 style = "color:purple;;">
+                    Why to book Hotels Online with EmperorHotels.com<br><br>
+We are back in the post-pandemic world with a bouquet of hotels across Indian cities ranging from leisure to business ones with a new outlook.<br> Emperor Hotels who has always been on the forefront of assuring a comfortable stay which is a bang for your bucks,<br> is offering you online hotel booking that guarantees you hygienic, sanitised rooms across hotels in India.<br> Explore a raft of interesting features such as Clean Pass stays, travel again offers and long stay discounts encouraging you to travel again,<br> make your hotel booking while keeping your anxieties at bay
+                </h2></b></center>
+        </section>
+        </section>
+
+        <br>
+        <br>
+        <section id="booking">
+        <section class="booking">
+            <center><h1 style="color: red;font-size: 40px;font-weight: 400;"><b>BOOK NOW!</b></h1></center>
+            <br>
+            <br>
+            <div class="text">
+                <div class="form">
+                    <form class="grid"><center>
+                        <label for="arrival date">ARRIVAL DATE:</label>
+                        <input type="date" placeholder="ARRIVAL DATE">
+                        <label for="arrival date">DEPARTURE DATE:</label>
+                        <input type="date" placeholder="DEPARTURE DATE">
+                        <input type="number" placeholder="ADULTS">
+                        <input type="number" placeholder="CHILDREN"><br>
+                        <br>
+                        <label for="arrival date">ROOMS:</label>
+                        <select name="rooms">
+                            <option value="STANDARD">SINGLE ROOM</option>
+                            <option value="SUPERIOR">STANDARD ROOM</option>
+                            <option value="FAMILY">FAMILY ROOM</option>
+                            <option value="SINGLE">PREMIUM ROOM</option>
+                            <option value="MEETING">MEETING ROOM</option>
+                            <option value="SINGLE">CONFERENCE HALL</option>
+                        </select></center>
+                        <br>
+                        <br>
+                    </form>
+                    <center><button class="primary-btna" ><a href="#gallery"style="color:black;text-decoration: none;background-color:grey;padding:12px 80px"><b>CHECK AVAILABILITY</b></a></button></center>
+                    <br>
+                    <br>
+                    <center><button class="primary-btna" ><a href="booking.html"style="color:white;text-decoration: none;background-color:#f4620d;padding:12px 80px"><b>CANCEL PREVIOUS BOOKING</b></a></button></center>
+                </div>
+            </div>
+        </section>
+        </section>
+
+        <br>
+        <br>
+
+        <section id="gallery">
+        <center><h1 style="color:red;font-size: 40px;font-weight: 400;"><b>OUR ROOMS</b></h1></center>
+
+        <br>
+        <br>
+        
+        <table style="color: purple;width:100%">
+            <tr>
+                <th>
+                    <img src="https://dk66958tcpc60.cloudfront.net/master/room/63/6362bc923443b221907116.jpeg" style="width: 75%;">
+                  <center><h1>SINGLE ROOMS</h1>
+                  <h2>₹1500/- PER NIGHT</h2>
+                  <br>
+                  <button class="primary-btn"><a href="payment.html"style="color:white;text-decoration: none;">BOOK NOW</a></button></center>
+                </th>
+                <th>
+                    <img src="https://dk66958tcpc60.cloudfront.net/master/room/63/6362bc923443b221907116.jpeg" style="width: 75%;">
+                  <center><h1>STANDARD ROOMS</h1>
+                  <h2>₹2500/- PER NIGHT</h2>
+                  <br>
+                  <button class="primary-btn"><a href="payment.html"style="color:white;text-decoration: none;">BOOK NOW</a></button></center>
+                </th>
+            </tr>
+
+            <tr>
+                <th>
+                    <img src="https://dk66958tcpc60.cloudfront.net/master/room/63/6362bc923443b221907116.jpeg" style="width: 75%;">
+                  <center><h1>FAMILY ROOMS</h1>
+                  <h2>₹4000/- PER NIGHT</h2>
+                  <br>
+                  <button class="primary-btn"><a href="payment.html"style="color:white;text-decoration: none;">BOOK NOW</a></button></center>
+                </th>
+                <th>
+                    <img src="https://dk66958tcpc60.cloudfront.net/master/room/63/6362bc923443b221907116.jpeg" style="width: 75%;">
+                  <center><h1>PREMIUM ROOMS</h1>
+                  <h2>₹5500/- PER NIGHT</h2>
+                  <br>
+                  <button class="primary-btn"><a href="payment.html"style="color:white;text-decoration: none;">BOOK NOW</a></button></center>
+                </th>
+            </tr>
+
+            <tr>
+                <th>
+                    <img src="https://dk66958tcpc60.cloudfront.net/master/room/63/6362bc923443b221907116.jpeg" style="width: 75%;">
+                  <center><h1>MEETING ROOM</h1>
+                  <h2>₹2500/- PER HOUR</h2>
+                  <br>
+                  <button class="primary-btn"><a href="payment.html"style="color:white;text-decoration: none;">BOOK NOW</a></button></center>
+                </th>
+                <th>
+                    <img src="https://dk66958tcpc60.cloudfront.net/master/room/63/6362bc923443b221907116.jpeg" style="width: 75%;">
+                  <center><h1>CONFERENCE HALL</h1>
+                  <h2>₹3500/- PER HOUR</h2>
+                  <br>
+                  <button class="primary-btn"><a href="payment.html"style="color:white ;text-decoration: none;">BOOK NOW</a></button></center>
+                </th>
+            </tr>
+        </table>
+        </section>
+        <br>
+        <br>
+
+        <section id="about">
+        <center><h1 style="color:red;font-size: 40px;font-weight: 400;"><b>ABOUT US</b></h1></center>
+
+        <br>
+        <br>
+        
+        <section class="about">
+            <div class="container grid">
+                <br>
+                <center><i class="fa-solid fa-people-group" style="color:orange;font-size:40px;"></i></center>
+                <table style="color: purple;width: 100%;">
+                    <tr>
+                        <th>
+                            <div class="box">
+                                <h1>2500</h1>
+                                <hr>
+                                <b><span>CUSTOMERS</span></b>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="box">
+                                <h1>1200</h1>
+                                <hr>
+                                <b><span>HAPPY CUSTOMERS</span></b>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="box">
+                                <h1>1500</h1>
+                                <hr>
+                                <b><span>EXPERT TECHNICIANS</span></b>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="box">
+                                <h1>3500</h1>
+                                <hr>
+                                <b><span>SITE VIEWS</span></b>
+                            </div>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+            
+        </section>
+
+        <br>
+        <br>
+
+        <center><h1 style="color:red;font-size: 40px;font-weight: 400;"><b>OUR SERVICES</b></h1></center>
+
+        <br>
+        <br>
+
+        <section class="about2">
+            <div class="container grid">
+                <table style="color: purple;width: 100%;">
+                    <tr>
+                        <th>
+                            <div class="box">
+                                <h1>SWIMMING</h1>
+                                <hr>
+                                
+                                <i class="fa-solid fa-person-swimming" style="color:orange;font-size:50px;"></i>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="box">
+                                <h1>DELICIOUS FOOD</h1>
+                                <hr>
+                                <i class="fa-solid fa-spa" style="color:orange;font-size:50px;"></i>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="box">
+                                <h1>BEAUTY SPA</h1>
+                                <hr>
+                                <i class="fa-solid fa-spa" style="color:orange;font-size:50px;"></i>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="box">
+                                <h1>FITTNESS</h1>
+                                <hr>
+                                <i class="fa-solid fa-dumbbell"style="color:orange;font-size:50px;"></i>
+                            </div>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        </section>
+        <br>
+        <br>
+        <section id="signin">
+        <section class="signin">
+            <div class="container">
+                <center><b><h1 style="color:red;font-size: 25px;font-weight: 400;">SIGN UP</h1>
+                    <br>
+                <p>Please fill in this form to create an account.</p></b>
+                <br>
+                <hr>
+                <br>
+                <table style="width: 100%;">
+                    <tr>
+                        <th>
+                            <label for="email"><b>Email: </b></label>
+                            <input type="text" placeholder="Enter Email" >
+                        </th>
+                        <th>
+                            <label for="psw"><b>Password: </b></label>
+                            <input type="password" placeholder="Enter Password">
+                        </th>
+                        <th>
+                            <label for="psw-repeat"><b>Repeat Password: </b></label>
+                            <input type="password" placeholder="Repeat Password">
+                        </th>
+                        <th>
+                            <input type="checkbox"> Remember me
+                        </th>
+                    </tr>    
+                </table>
+                
+                <br>
+                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+                <br>
+                <hr>
+                <br>
+                <p>Alredy have an account?</p>
+                <br>
+                <b><h3 style="color:red;font-size: 25px;font-weight: 400;">LOG IN</h3>
+                    <br>
+                <table style="width: 100%;">
+                    <tr>
+                        <th>
+                            <label for="email"><b>Email: </b></label>
+                            <input type="text" placeholder="Enter Email" >
+                        </th>
+                        <th>
+                            <label for="psw"><b>Password: </b></label>
+                            <input type="password" placeholder="Enter Password">
+                        </th>
+                    </tr>
+                </table>
+                <br>
+                <div class="clearfix">
+                    <button type="button" class="cancelbtn"><a href="index.html" style="color:white;text-decoration: none;">CANCEL</a></button>
+                    <button type="submit" class="signupbtn"><a href="https://images3.alphacoders.com/109/thumb-1920-1091916.png" style="color:white;text-decoration: none;">SIGN UP</a></button>
+                </div></b></center>
+                <br>
+            </div>
+        </section>
+        </section>
+        <br>
+        <br>
+        <section id="contactus">
+            <center><h1 style="color: red;font-size: 40px;font-weight: 400;"><b>CONTACT US</b></h1></center>
+        <section class="contactus">
+            <table style="width: 100%;">
+                <tr>
+                    <th style="background-color: #3e3e47;" width="600" height="500">
+                        <center>
+                            <i class="fa fa-phone" style="font-size:36px"></i>
+                            <br><br>
+                            <h1 style="font-size: 25px;">8423131088</h1>
+                            <br><br>
+                            <i class="fa-brands fa-whatsapp" style="font-size:36px"></i>
+                            <br><br>
+                            <h1 style="font-size: 25px;">8423131088</h1>
+                            <br><br>
+                            <i class="fa-solid fa-envelope" style="font-size:36px"></i>
+                            <br><br>
+                            <h1 style="font-size: 25px;">abhinavverma8423@gmail.com</h1>
+                            <br><br>
+                            <i class="fa fa-location-dot" style="font-size:36px"></i>
+                            <br><br>
+                            <h1 style="font-size: 25px;">Kapurthala, - 144411, Punjab, India</h1>
+                            <h1 style="font-size: 25px;">Latitude: 31.244447 / N 31° 14' 40.008''</h1>
+                            <h1 style="font-size: 25px;">Longitude: 75.702245 / E 75° 42' 8.083''</h1>
+                        </center>
+                    </th>
+                    <th style="width: 30px;height: 500;"></th>
+                    <th style="background-color: #3e3e47;" width="600" height="500">
+                        <br>
+                        <center><b><h1 style="color:red;font-size: 25px;">CUSTOMER DETAILS</h1></b></center>
+                        <br>
+                        <br>
+                        <label for="firstname"><b>First Name: </b></label><br>
+                        <br>
+                        <input type="text" placeholder="Enter First Name" ><br>
+                        <br>
+                        <label for="firstname"><b>Last Name: </b></label><br>
+                        <br>
+                        <input type="text" placeholder="Enter Last Name" ><br>
+                        <br>
+                        <label for="firstname"><b>Emaid  Id:  </b></label><br>
+                        <br>
+                        <input type="text" placeholder="Enter Email" ><br>
+                        <br>
+                        <label for="firstname"><b>Query:  </b></label><br>
+                        <br>
+                        <input type="text" placeholder="Enter Querry" style="height:150px;" ><br>
+                        <br>
+                        <button type="button" class="submitbtn"><a href="mailto:abhinavverma8423@gmail.com"style="color:white;text-decoration: none;">SUBMIT</a></button>
+                        <br>
+                        <br>
+                    </th>
+                </tr>
+            </table>
+            
+        </section>
+        </section>
+        <br>
+        <br>
+        <footer>
+            <div class="footer-content"><center>
+                <br>
+                <h1 style="color:red;font-size: 40px;font-weight: 400;"><b>THANKS FOR VISITING</b></h1>
+                <br>
+                <a href="#" class="fa-brands fa-facebook-f" style="color: white;"></a>
+                <a href="#" class="fa-brands fa-twitter" style="color: blue;"></a>
+                <a href="#" class="fa-brands fa-google" style="color: red;"></a>
+                <a href="#" class="fa-brands fa-linkedin-in" style="color: white;"></a>
+                <a href="#" class="fa-brands fa-youtube" style="color: red;"></a>
+                <a href="#" class="fa-brands fa-instagram" style="color: rgb(241, 136, 154);"></a>
+                <br>
+                <br>
+                <h1>&copy</h1>
+                <p>2022 EMPEROR HOTELS Designed By ABHINAV</p>
+            </center>
+            </div>
+        </footer>
+    </body>
+</html>
